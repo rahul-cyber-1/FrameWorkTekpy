@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T14:42:45 IST" name="Suite" finished-at="2024-06-24T14:43:18 IST" duration-ms="32802">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T14:42:45 IST" name="Test" finished-at="2024-06-24T14:43:18 IST" duration-ms="32802">
+      <class name="com.comcast.crm.vtiger.ContactTest.CreateContactTest2">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:42:45 IST" name="configBS" finished-at="2024-06-24T14:42:45 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:42:46 IST" name="configBC" finished-at="2024-06-24T14:42:48 IST" duration-ms="2899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:42:48 IST" name="configBM" finished-at="2024-06-24T14:42:52 IST" duration-ms="3929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:42:52 IST" name="createContactTest" finished-at="2024-06-24T14:42:52 IST" duration-ms="26" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equals(Object)" because "str" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "str" is null
+at com.comcast.crm.vtiger.ContactTest.CreateContactTest2.createContactTest(CreateContactTest2.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:42:53 IST" name="configAM" finished-at="2024-06-24T14:42:57 IST" duration-ms="3931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:42:57 IST" name="configBM" finished-at="2024-06-24T14:42:59 IST" duration-ms="2233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="deleteContact()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:42:59 IST" name="deleteContact" finished-at="2024-06-24T14:42:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:42:59 IST" name="configAM" finished-at="2024-06-24T14:43:02 IST" duration-ms="3484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:43:02 IST" name="configBM" finished-at="2024-06-24T14:43:05 IST" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="modifyContact()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:43:05 IST" name="modifyContact" finished-at="2024-06-24T14:43:05 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContact -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:43:05 IST" name="configAM" finished-at="2024-06-24T14:43:10 IST" duration-ms="4886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:43:10 IST" name="configAC" finished-at="2024-06-24T14:43:11 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.vtiger.ContactTest.CreateContactTest2@59402b8f]" started-at="2024-06-24T14:43:18 IST" name="configAS" finished-at="2024-06-24T14:43:18 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.sql.Connection.close()" because "this.con" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.close()" because "this.con" is null
+at com.comcast.crm.generic.DatabaseUtility.DatabaseUtility.closeDbconnection(DatabaseUtility.java:26)
+at baseClass.BaseClassUpdated.configAS(BaseClassUpdated.java:100)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:386)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.vtiger.ContactTest.CreateContactTest2 -->
+      <class name="com.comcast.crm.vtiger.orgTest.CreateOrderTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe]" started-at="2024-06-24T14:43:11 IST" name="configBC" finished-at="2024-06-24T14:43:12 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe]" started-at="2024-06-24T14:43:12 IST" name="configBM" finished-at="2024-06-24T14:43:15 IST" duration-ms="2912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrderTest()[pri:0, instance:com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe]" started-at="2024-06-24T14:43:15 IST" name="createOrderTest" finished-at="2024-06-24T14:43:15 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equals(Object)" because "str" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "str" is null
+at com.comcast.crm.vtiger.orgTest.CreateOrderTest.createOrderTest(CreateOrderTest.java:12)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe]" started-at="2024-06-24T14:43:15 IST" name="configAM" finished-at="2024-06-24T14:43:18 IST" duration-ms="3196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method signature="billingAnOrderTest()[pri:0, instance:com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe]" started-at="2024-06-24T14:43:18 IST" name="billingAnOrderTest" finished-at="2024-06-24T14:43:18 IST" depends-on-methods="com.comcast.crm.vtiger.orgTest.CreateOrderTest.createOrderTest" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.comcast.crm.vtiger.orgTest.CreateOrderTest.billingAnOrderTest() on instance com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe depends on not successfully finished methods 
+[com.comcast.crm.vtiger.orgTest.CreateOrderTest.createOrderTest() on instance com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.comcast.crm.vtiger.orgTest.CreateOrderTest.billingAnOrderTest() on instance com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe depends on not successfully finished methods 
+[com.comcast.crm.vtiger.orgTest.CreateOrderTest.createOrderTest() on instance com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billingAnOrderTest -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.vtiger.orgTest.CreateOrderTest@4a003cbe]" started-at="2024-06-24T14:43:18 IST" name="configAC" finished-at="2024-06-24T14:43:18 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.comcast.crm.vtiger.orgTest.CreateOrderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
